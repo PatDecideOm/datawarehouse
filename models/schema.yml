@@ -1,0 +1,23 @@
+
+version: 2
+
+sources:
+  - name: staging
+    database: decideom_lyon
+    schema: staging
+    tables:
+      - name: CUSTOMER
+      - name: LINEITEM
+      - name: NATION
+      - name: ORDERS
+      - name: PART
+      - name: PARTSUPP
+      - name: REGION
+      - name: SUPPLIER
+
+target:
+  - name: datawarehouse
+    database: decideom_lyon
+    schema: datawarehouse
+    tables:
+      - name: agg_orders
