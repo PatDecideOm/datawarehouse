@@ -4,7 +4,7 @@ version: 2
 sources:
   - name: erp_public
     database: decideom_lyon
-    schema: staging
+    schema: erp_public
     tables:
       - name: CUSTOMER
       - name: LINEITEM
