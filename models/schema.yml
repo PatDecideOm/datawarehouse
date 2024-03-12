@@ -2,7 +2,7 @@
 version: 2
 
 sources:
-  - name: staging
+  - name: erp_datawarehouse
     database: decideom_lyon
     schema: staging
     tables:
